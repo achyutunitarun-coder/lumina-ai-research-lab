@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina AI Research Lab</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', system-ui, sans-serif; }
+        .hero-bg { background: radial-gradient(circle at 50% 30%, rgba(0,240,255,0.15), transparent 70%); }
+        .glass { background: rgba(10,10,10,0.85); backdrop-filter: blur(20px); }
+    </style>
+</head>
+<body class="bg-[#0a0a0a] text-white">
+    <!-- Navbar -->
+    <nav class="fixed top-0 w-full z-50 border-b border-white/10 bg-black/80 backdrop-blur-xl">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 bg-gradient-to-br from-cyan-400 to-purple-600 rounded-2xl flex items-center justify-center text-xl font-bold">L</div>
+                <span class="text-3xl font-semibold tracking-tight">Lumina</span>
+            </div>
+            <div class="flex gap-8 text-sm">
+                <a href="#" class="hover:text-cyan-400 transition">Research</a>
+                <a href="#" class="hover:text-cyan-400 transition">Benchmarks</a>
+                <a href="#" class="hover:text-cyan-400 transition">Publications</a>
+                <a href="#" class="hover:text-cyan-400 transition">About</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="min-h-screen hero-bg flex items-center pt-20">
+        <div class="max-w-6xl mx-auto px-6 text-center">
+            <h1 class="text-8xl font-bold tracking-tighter leading-none mb-8">
+                Illuminating<br>the Future of<br><span class="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">Intelligence</span>
+            </h1>
+            <p class="text-2xl text-gray-400 max-w-2xl mx-auto mb-12">Lumina AI Research Lab — frontier research in agentic AI, evaluations, and open science.</p>
+            
+            <div class="flex gap-6 justify-center">
+                <a href="#" class="px-10 py-5 bg-white text-black rounded-2xl text-lg font-medium flex items-center gap-3 hover:scale-105 transition">Explore Research <i class="fas fa-arrow-right"></i></a>
+                <a href="#" class="px-10 py-5 border border-white/40 rounded-2xl text-lg font-medium hover:bg-white/10 transition">View Latest Benchmark</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Report -->
+    <section class="py-24 bg-zinc-950">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="glass p-16 rounded-3xl">
+                <div class="flex items-center gap-4 mb-8">
+                    <i class="fas fa-trophy text-4xl text-amber-400"></i>
+                    <div>
+                        <div class="text-cyan-400 text-sm font-mono">LUMINA-RP-2026-002</div>
+                        <h2 class="text-4xl font-semibold">Agentic Performance Benchmark July 2026</h2>
+                    </div>
+                </div>
+                <p class="text-xl text-gray-300 mb-10">Comprehensive head-to-head evaluation of frontier open and closed models in real agentic workflows.</p>
+                <a href="#" class="inline-flex items-center gap-3 text-lg px-8 py-4 border border-white rounded-2xl hover:bg-white hover:text-black transition">Read Full Report →</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-gray-500 text-sm border-t border-white/10">
+        © 2026 Lumina AI Research Lab
+    </footer>
+</body>
+</html>
